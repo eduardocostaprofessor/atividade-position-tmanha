@@ -15,7 +15,6 @@
     width: 100%;
     max-width: 992px;
     margin: 0 auto;
-    border: 2px solid red;
 }
 
 body {
@@ -93,7 +92,8 @@ section .ajuda-box p {
 }
 
 section .conhecimento-profundo {
-    
+     position: relative;/* referencial é o próprio elemento */
+    top: -60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
